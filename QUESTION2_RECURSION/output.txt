@@ -1,0 +1,23 @@
+RECURSION ASSESSMENT
+
+=== FACTORIAL ===
+factorial(0) = 1
+factorial(1) = 1
+factorial(5) = 120
+factorial(-2) = -1 (unsupported input)
+
+=== FIBONACCI ===
+First 0 terms: No Fibonacci terms requested.
+First 1 term: 0
+First 7 terms: 0 1 1 2 3 5 8
+
+=== STRING REVERSAL ===
+Empty string reversed: []
+A reversed: A
+hello reversed: olleh
+
+=== BINARY SEARCH ===
+Search 30: index 2
+Search 10: index 0
+Search 99: index -1
+Search empty array: index -1

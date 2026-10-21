@@ -1,0 +1,45 @@
+SINGLY LINKED LIST ASSESSMENT
+
+========== EMPTY LIST TEST ==========
+List is empty.
+Error: Cannot delete from an empty list.
+Error: Cannot delete from an empty list.
+
+========== TEST 1 ==========
+10 inserted at the beginning.
+30 inserted at the end.
+20 inserted at position 2.
+List: 10 -> 20 -> 30 -> NULL
+Node at position 2 deleted.
+List: 10 -> 30 -> NULL
+10 deleted from the list.
+List: 30 -> NULL
+Error: Value 999 not found.
+20 inserted at the end.
+List: 30 -> 20 -> NULL
+
+========== TEST 2 ==========
+5 inserted at the beginning.
+25 inserted at the end.
+15 inserted at position 2.
+List: 5 -> 15 -> 25 -> NULL
+Node at position 2 deleted.
+List: 5 -> 25 -> NULL
+5 deleted from the list.
+List: 25 -> NULL
+Error: Value 999 not found.
+15 inserted at the end.
+List: 25 -> 15 -> NULL
+
+========== TEST 3 ==========
+100 inserted at the beginning.
+300 inserted at the end.
+200 inserted at position 2.
+List: 100 -> 200 -> 300 -> NULL
+Node at position 2 deleted.
+List: 100 -> 300 -> NULL
+100 deleted from the list.
+List: 300 -> NULL
+Error: Value 999 not found.
+200 inserted at the end.
+List: 300 -> 200 -> NULL

@@ -1,0 +1,6 @@
+
+A singly linked list stores data in dynamically allocated nodes. Each node contains a data field and a pointer to the next node. The head pointer identifies the first node, while the last node points to nullptr.
+
+Insertion at the beginning creates a node and connects it to the current head. Insertion at a specified position traverses the list to locate the required node and adjusts the pointers. Insertion at the end traverses to the last node and links the new node to it.
+
+Deletion by position or value locates the target node, updates the necessary links, and releases the removed node's memory using delete. The display function traverses the list and prints each node. Empty-list checks, invalid positions, and missing values are handled with error messages. The destructor releases all remaining nodes to prevent memory leaks.
